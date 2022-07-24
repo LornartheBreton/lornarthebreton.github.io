@@ -2,96 +2,60 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Hector G. T. Torres
     - name: Languages
-      value: English, German
+      value: Spanish (native), English (Advanced, TOEFL iBT 115/120)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor's Degree in Data Science
+      institution: ITAM (Instituto Tecnológico Autónomo de México)
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+      - "Studying a bachelor’s degree in Data Science with a 70% merit-based scholarship. Completed coursework includes: Data Structures, Linear Algebra, Microeconomics, Macroeconomics, Machine Learning, Artificial Intelligence, Relational and Non-Relational Databases, among others." 
+    - title: Deep Learning Specialization
+      institution: Coursera
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Studied a Deep Learning Specialization, with a curriculum that covers Convolutional Neural Networks (CNNs), RNNs, LSTM, and more, utilizing Python, Pandas, NumPy and TensorFlow.
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Science and Business Intelligence Intern
+      institution: Didi Chuxing
+      year: 05/2021 - 08/2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Worked on Data projects related to the KPIs (Key Performance Indicators) of the Didi Food delivery service utilizing SQL, Excel, Python, and Tableau.
+    - title: Software Engineering Intern
+      institution: Coca-Cola
+      year: 10/2018 - 01/2019
       description:
         - Description 1.
         - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research, Notable Projects and Extra-curriculars
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: 2022 Meta Data Challenge Finalist
+      institution: Meta (Facebook)
+      year: 03/2022 - 05/2022
+      description: Became a finalist on the 2022 Meta Data Challenge and worked on an extensive Data Analytics project that was presented to Meta Data Scientists and Data Engineers.
+    
+    - title: Data Scientist Fellowship
+      institution: ITAM Center for Data, Algorithms and Society (CDAS)
+      year: 09/2021 - 09/2022
+      description: "Assisted on the research and development related to Kemitl: a project that created a national database of textile patterns of Mexico’s diverse indigenous peoples and trained a computer vision neural network on said data to detect the patterns being plagiarized by big fashion companies."
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title:  Programming languages
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - C, Java, Python, SQL, R - Proficient
+        - Rust, Julia, Typescript, Shell - Intermediate
+        - Haskell, OCaml - Beginner
+    - title: Technologies/Libraries
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Git, PyTorch, Spark, Tableau, Matplotlib, Sci-kit Learn, Keras, Tensorflow, Numpy, Pandas, Ionic, Linux, Regex, Selenium, Web-scraping, PosgreSQL, MongoDB, Latex, AWS
